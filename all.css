@@ -145,6 +145,9 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+img {
+  max-width:100%;
+}
 .navbar,
 .nav-list,
 .footer-top,
@@ -171,7 +174,7 @@ a {
   font-size: 20px;
 }
 .logo {
-  width: 80px;
+  max-width: 80px;
   vertical-align: middle;
 }
 /* content */
@@ -221,8 +224,8 @@ a {
 .external-link li {
   padding-right: 32px;
 }
-.social-media {
-  width: 48px;
+.external-link img {
+  max-width: 48px;
 }
 .contact {
   font-size: 36px;
@@ -320,8 +323,8 @@ a {
   .policy {
     font-size: 16px;
   }
-  .social-media {
-    width: 24px;
+  .external-link img {
+    max-width: 24px;
   }
   .external-link li {
     padding-right: 8px;
